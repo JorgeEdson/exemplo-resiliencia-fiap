@@ -1,5 +1,5 @@
-Exemplo de Arquitetura Resiliente com Mensageria na Cloud
-Outbox Pattern • Azure Service Bus • Workers • Resiliência com Polly • Demonstração Didática para PosTech Arquitetura de Sistemas .NET
+# Exemplo de Arquitetura Resiliente com Mensageria na Cloud
+## Outbox Pattern • Azure Service Bus • Workers • Resiliência com Polly • Demonstração Didática para PosTech Arquitetura de Sistemas .NET
 
 Este projeto demonstra uma arquitetura moderna e resiliente baseada em mensageria, utilizando:
 
@@ -27,7 +27,7 @@ Solicitações Rejeitadas
 
 Esse exemplo foi projetado para fins educacionais e apresenta conceitos amplamente utilizados no mercado bancário e de alta criticidade.
 
-📌 1. Objetivo da Solução
+## 📌 1. Objetivo da Solução
 
 A solução simula o fluxo real de solicitação de crédito:
 
