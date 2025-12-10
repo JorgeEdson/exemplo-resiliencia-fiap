@@ -53,7 +53,7 @@ Se rejeitado → registra uma Solicitação Rejeitada
 
 O worker-expurgo-outbox limpa mensagens antigas publicadas.
 
-🧱 2. Arquitetura da Solução
+##  🧱 2. Arquitetura da Solução
 
 A arquitetura segue o modelo C4, com níveis 1, 2 e 3.
 
@@ -99,7 +99,7 @@ Consumidor: MessagePump, ProcessadorCredito, DbContexts
 
 Expurgo: Scheduler + CleanupService
 
-🚀 3. Fluxo Completo da Demonstração
+## 🚀 3. Fluxo Completo da Demonstração
 1) API recebe solicitação
 
 Calcula uma Idempotency Key baseada nos dados + janela de 48 horas
@@ -132,7 +132,7 @@ Executa diariamente às 23h
 
 Remove registros Outbox com status Publicada e mais antigos que X dias
 
-🛠 4. Tecnologias Utilizadas
+## 🛠 4. Tecnologias Utilizadas
 Componente	Tecnologia
 API	.NET 8 / ASP.NET Web API
 Outbox Pattern	EF Core 8
